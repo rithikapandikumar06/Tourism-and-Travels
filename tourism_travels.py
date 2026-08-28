@@ -544,8 +544,8 @@ try:
     con = mc.connect(
         host="localhost",
         user="root",
-        password="prince",
-        port=3307
+        password="system",
+        port=2496
     )
 
     if con.is_connected():
